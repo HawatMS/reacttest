@@ -2,13 +2,7 @@ import React from 'react';
 
 function App() {
   const value = 'World, this is a test! 2';
-  useEffect(() => {
-    (async function () {
-      const { text } = await( await fetch(`/api/getreacttest`)).json();
-      setData(text);
-    })();
-  });
-  return <div>Hello {value} {text} </div>;
+  return <div>Hello {value} </div>;
 }
 
 export default App;
