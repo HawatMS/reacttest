@@ -8,7 +8,7 @@ function App() {
       setData(text);
     })();
   });
-  return <div>Hello {value}</div>;
+  return <div>Hello {value} {text} </div>;
 }
 
 export default App;
