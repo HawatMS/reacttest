@@ -1,7 +1,7 @@
 import React from 'react';
 
 function App() {
-  const value = 'World, this is a test!';
+  const value = 'World, this is a test! 2';
   useEffect(() => {
     (async function () {
       const { text } = await( await fetch(`/api/getreacttest`)).json();
